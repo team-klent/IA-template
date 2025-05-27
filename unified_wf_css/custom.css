@@ -1,0 +1,134 @@
+body {
+    /*
+    font-family: calibri !important;
+    font-size: 17px !important;
+    */
+    font-size: 14px !important;
+}
+.page-title {padding:20px 36px 20px 0; /*font-family: calibri;*/}
+.navigation .navigation-header { font-size: 15px; }
+tr.js-filter-row {background-color: #f5f5f5;}
+tr.js-filter-row > th{padding: 2px !important;}
+input.js-filter {height: 28px;}
+.filter-icon {margin-top: -20px;display: inline-block;float: right;margin-right: 5px;color: #219ade;}
+.dt-filter-icon {margin-top: -27px;display: inline-block;float: right;margin-right: 5px;color: #219ade;}
+.dt-filter-icon-select {margin-top: -24px;display: inline-block;float: right;margin-right: 15px;color: #219ade;}
+
+tr.assigned-to-me {
+    background-color: #c4d60278 !important;
+}
+
+tr.assigned-to-user {
+    background-color: #2196f352 !important;
+}
+
+#return-to-top {z-index:100000;position: fixed;bottom: 20px;right: 20px;background: rgb(0, 0, 0);background: rgba(0, 0, 0, 0.7);width: 50px;height: 50px;display: block;text-decoration: none;-webkit-border-radius: 35px;-moz-border-radius: 35px;border-radius: 35px;display: none;-webkit-transition: all 0.3s linear;-moz-transition: all 0.3s ease;-ms-transition: all 0.3s ease;-o-transition: all 0.3s ease;transition: all 0.3s ease;}
+#return-to-top i {color: #fff;margin: 0;position: relative;left: 16px;top: 13px;font-size: 19px;-webkit-transition: all 0.3s ease;-moz-transition: all 0.3s ease;-ms-transition: all 0.3s ease;-o-transition: all 0.3s ease;transition: all 0.3s ease;}
+#return-to-top:hover {background: rgba(0, 0, 0, 0.9);}
+#return-to-top:hover i {color: #fff;top: 5px;}
+.alert-dismissible {padding-right: 35px !important;}
+ul.list.list-unstyled.list-inner {
+    margin-left: 30px;
+}
+.datepicker table tr td.today:before {content: "";position: relative;top: -1px;right: -17px;width: 0;height: 0;border-top: 6px solid #26A69A;border-left: 6px solid transparent;}
+
+.btn-group-xxs>.btn, .btn-xxs {
+    padding: 4px 6px;
+    font-size: 12px;
+    line-height: 1.6666667;
+    border-radius: 4px;
+}
+
+.alert-float {
+    position:fixed; 
+    top: 0px; 
+    left: 0px; 
+    width: 98%;
+    z-index:9999; 
+    border-radius:0px;
+    margin: 10px;
+}
+
+.fancybox-close{ right: 22px !important;top: 15px !important; }
+
+select[readonly].select2 + .select2-container {
+    pointer-events: none;
+    touch-action: none;
+}
+select[readonly].select2 + .select2-container .select2-selection {
+    background: #eee;
+    box-shadow: none;
+}
+select[readonly].select2 + .select2-container .select2-selection__arrow, select[readonly].select2 + .select2-container .select2-selection__clear {
+    display: none;
+}
+.header-highlight .navbar-header:not([class*=bg-]) {
+    background-color: #ffffff;
+}
+
+.dataTables_scrollBody{
+    min-height: 150px;
+}
+.label-color-on-cluster{
+    background-color: #05d3f7;
+    border-color: #05d3f7;
+}
+.label-color-on-zip{
+    background-color: #3d91ff;
+    border-color: #3d91ff;
+}
+.label-color-on-ready{
+    background-color:  #059df5;
+    border-color:  #059df5;
+}
+.label-color-com-qa-picked{
+    background-color:#5585cf;
+    border-color: #5585cf;
+}
+.label-color-qa-failed{
+    background-color: #fc5219;
+    border-color: #fc5219;
+}
+.label-color-qa-passed{
+    background-color: #60de3a ;
+    border-color: #60de3a ;
+}
+.label-color-rework-ongoing{
+    background-color: #2d8c8f;
+    border-color: #2d8c8f;
+}
+.label-vendor-cluster-zip-assigned-to-vendor{
+    background-color: #2821e3;
+    border-color: #2821e3;
+}
+.label-vendor-cluster-on-validation{
+    background-color: #923434;
+    border-color: #923434;
+}.label-vendor-cluster-file-error{
+    background-color: #c24911;
+    border-color: #c24911;
+}.label-vendor-cluster-validation-complete{
+    background-color: #14b278;
+    border-color: #14b278;
+}.label-vendor-cluster-complete{
+    background-color: #37ac2f;
+    border-color: #37ac2f;
+}.label-vendor-cluster-in-complete{
+    background-color: #a515cd;
+    border-color: #a515cd;
+}.label-vendor-cluster-file-count-error{
+    background-color: #d6360a;
+    border-color: #d6360a;
+}.label-vendor-cluster-error{
+    background-color: #f6400e;
+    border-color: #f6400e;
+}.label-vendor-file-moving-error{
+    background-color: #f6400e;
+    border-color: #f6400e;
+}.label-color-rework-complete{
+    background-color: #a9be1f;
+    border-color: #a9be1f;
+}.label-vendor-cluster-pending{
+    background-color: #bdd330;
+    border-color: #a9be1f;
+}
