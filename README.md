@@ -1,2 +1,2 @@
 # IA-template
-Template used by IA
+Extract assets.zip in main folder
