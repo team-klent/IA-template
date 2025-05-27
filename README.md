@@ -1,2 +1,2 @@
 # IA-template
-Extract assets.zip in main folder
+Extract `assets.zip` into the `assets` folder in the main directory
