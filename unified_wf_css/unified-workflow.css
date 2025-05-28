@@ -70,6 +70,7 @@ body {
 }
 .sidebar .uw-logo {
     text-align: center;
+    cursor: pointer;
 }
 .sidebar .uw-logo .uw {
     font-size: 23px;
@@ -81,7 +82,13 @@ body {
 .sidebar .uw-logo .word-2{
     color: #000000;
 }
+.sidebar-xs .uw-logo .word-2 {
+    margin-left: -4px;
+}
 
+.sidebar-xs .uw-logo .uw-word-hide {
+    display: none;
+}
 .uw-button, uw-button:hover {
     background-color: #0070c0;
     color: #ffffff!important;
