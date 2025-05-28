@@ -154,25 +154,80 @@
 					</li>
 				</ul>
 
-				<ul class="nav navbar-nav navbar-right">
+			<ul class="nav navbar-nav navbar-right">
+            <li
+              class="dropdown dropdown-user"
+              style="margin-right: 20px; margin-top: 6px"
+            >
+              <div class="btn-group">
+                <button
+                  type="button"
+                  id="btn-project-selection "
+                  class="btn btn-default dropdown-toggle "
+                  data-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Selected Project : DEMO1 - DEMO1 <span class="caret"></span>
+                </button>
+                <ul
+                  class="dropdown-menu dropdown-menu-right"
+                  style="overflow-y: auto; max-height: 500px; width: 382px"
+                >
+                  <li class="li-user-project">
+                    <a href="https://unifiedworkflow.innodata.com/DEMO1">
+                      <i
+                        class="icon-star-empty3 text-orange-600 link-bookmark-project"
+                        data-project-code="DEMO1"
+                        data-bookmarked="0"
+                      ></i>
+                      DEMO1 - DEMO1
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="dropdown dropdown-user">
+							
+              <a class="dropdown-toggle" data-toggle="dropdown">
+                <img
+                  src="https://unifiedworkflow.innodata.com/assets/images/user.png"
+                  alt=""
+                />
+                <span>Francis Robert Frias</span>
+                <i class="caret"></i>
+              </a>
 
-					<li class="dropdown dropdown-user">
-						<a class="dropdown-toggle" data-toggle="dropdown">
-							<img src="assets/images/placeholder.jpg" alt="">
-							<span>Victoria</span>
-							<i class="caret"></i>
-						</a>
+              <ul class="dropdown-menu dropdown-menu-right">
+                <li>
+                  <a href="https://unifiedworkflow.innodata.com/change_password"
+                    ><i class="icon-key"></i> Change Password</a
+                  >
+                </li>
 
-						<ul class="dropdown-menu dropdown-menu-right">
-							<li><a href="#"><i class="icon-user-plus"></i> My profile</a></li>
-							<li><a href="#"><i class="icon-coins"></i> My balance</a></li>
-							<li><a href="#"><span class="badge uw-button pull-right">58</span> <i class="icon-comment-discussion"></i> Messages</a></li>
-							<li class="divider"></li>
-							<li><a href="#"><i class="icon-cog5"></i> Account settings</a></li>
-							<li><a href="#"><i class="icon-switch2"></i> Logout</a></li>
-						</ul>
-					</li>
-				</ul>
+                <li class="divider"></li>
+                <li>
+                  <a
+                    href="https://unifiedworkflow.innodata.com/logout"
+                    onclick="event.preventDefault(); document.getElementById('logout-form').submit();"
+                    ><i class="icon-switch2"></i> Logout</a
+                  >
+                  <form
+                    id="logout-form"
+                    action="https://unifiedworkflow.innodata.com/logout"
+                    method="POST"
+                    style="display: none"
+                  >
+                    <input
+                      type="hidden"
+                      name="_token"
+                      value="A1FryctDSghfXIncHFZLH1XvblYmou6XQ3tTNbuV"
+                      autocomplete="off"
+                    />
+                  </form>
+                </li>
+              </ul>
+            </li>
+          </ul>
 			</div>
 		</div>
 	</div>
@@ -1038,18 +1093,7 @@
 													</a>
 												</td>
 												<td class="text-center">
-													<ul class="icons-list">
-														<li class="dropdown">
-															<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-menu7"></i></a>
-															<ul class="dropdown-menu dropdown-menu-right">
-																<li><a href="#"><i class="icon-undo"></i> Quick reply</a></li>
-																<li><a href="#"><i class="icon-history"></i> Full history</a></li>
-																<li class="divider"></li>
-																<li><a href="#"><i class="icon-checkmark3 text-success"></i> Resolve issue</a></li>
-																<li><a href="#"><i class="icon-cross2 text-danger"></i> Close issue</a></li>
-															</ul>
-														</li>
-													</ul>
+													<button class="btn btn-xs btn-default"><i class="icon-play3"></i> Play</button>		
 												</td>
 											</tr>
 
@@ -1074,18 +1118,7 @@
 													</a>
 												</td>
 												<td class="text-center">
-													<ul class="icons-list">
-														<li class="dropdown">
-															<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-menu7"></i></a>
-															<ul class="dropdown-menu dropdown-menu-right">
-																<li><a href="#"><i class="icon-undo"></i> Quick reply</a></li>
-																<li><a href="#"><i class="icon-history"></i> Full history</a></li>
-																<li class="divider"></li>
-																<li><a href="#"><i class="icon-checkmark3 text-success"></i> Resolve issue</a></li>
-																<li><a href="#"><i class="icon-cross2 text-danger"></i> Close issue</a></li>
-															</ul>
-														</li>
-													</ul>
+													<button class="btn play-button"><i class="glyphicon glyphicon-play"></i></button>		
 												</td>
 											</tr>
 
@@ -1112,18 +1145,7 @@
 													</a>
 												</td>
 												<td class="text-center">
-													<ul class="icons-list">
-														<li class="dropdown">
-															<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-menu7"></i></a>
-															<ul class="dropdown-menu dropdown-menu-right">
-																<li><a href="#"><i class="icon-undo"></i> Quick reply</a></li>
-																<li><a href="#"><i class="icon-history"></i> Full history</a></li>
-																<li class="divider"></li>
-																<li><a href="#"><i class="icon-checkmark3 text-success"></i> Resolve issue</a></li>
-																<li><a href="#"><i class="icon-cross2 text-danger"></i> Close issue</a></li>
-															</ul>
-														</li>
-													</ul>
+													<button class="btn btn-xs btn-default"><i class="icon-play3"></i> Play</button>		
 												</td>
 											</tr>
 
@@ -1150,18 +1172,7 @@
 													</a>
 												</td>
 												<td class="text-center">
-													<ul class="icons-list">
-														<li class="dropdown">
-															<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-menu7"></i></a>
-															<ul class="dropdown-menu dropdown-menu-right">
-																<li><a href="#"><i class="icon-undo"></i> Quick reply</a></li>
-																<li><a href="#"><i class="icon-history"></i> Full history</a></li>
-																<li class="divider"></li>
-																<li><a href="#"><i class="icon-checkmark3 text-success"></i> Resolve issue</a></li>
-																<li><a href="#"><i class="icon-cross2 text-danger"></i> Close issue</a></li>
-															</ul>
-														</li>
-													</ul>
+													<button class="btn btn-xs btn-default"><i class="icon-play3"></i> Play</button>		
 												</td>
 											</tr>
 

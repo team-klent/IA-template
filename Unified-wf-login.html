@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Unified Workflow" />
+    <meta name="author" content="Innodata" />
+    <meta
+      name="csrf-token"
+      content="k1DeROQxe5pMzRiTFyIWvtV5uFa0QOTwcuF0bLhJ"
+    />
+    <title>Unified Workflow Platform</title>
+
+    <link
+      rel="shortcut icon"
+      href="https://unifiedworkflow.innodata.com/assets/images/icons/favicon.ico"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://unifiedworkflow.innodata.com/assets/images/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="https://unifiedworkflow.innodata.com/assets/images/icons/favicon-16x16.png"
+    />
+
+    <link
+      href="https://unifiedworkflow.innodata.com/assets/login/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unifiedworkflow.innodata.com/assets/login/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unifiedworkflow.innodata.com/assets/login/css/animate.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unifiedworkflow.innodata.com/assets/login/css/style.css?v=20210609"
+      rel="stylesheet"
+    />
+
+    <!-- END Icons -->
+    <script type="text/javascript">
+      var APP = (function () {
+        var _baseUrl = 'https://unifiedworkflow.innodata.com/';
+        var _siteUrl = 'https://unifiedworkflow.innodata.com/';
+        var _userLogedIn = false;
+        return {
+          baseUrl: _baseUrl,
+          siteUrl: _siteUrl,
+          userLogedIn: _userLogedIn,
+          googleApiKey: '',
+        };
+      })();
+    </script>
+  </head>
+  <body>
+    <div class="login-wrapper">
+      <div class="login-box">
+        <div class="logo">
+          <img
+            src="https://unifiedworkflow.innodata.com/assets/login/images/innodata_text_anno.png"
+            alt="logo"
+          />
+        </div>
+        <form
+          action="https://unifiedworkflow.innodata.com/auth/verify-user-id"
+          class="row"
+          method="POST"
+        >
+          <div class="col-md-5">
+            <h2>
+              The Unified <br />
+              Workflow <br />
+              Platform
+            </h2>
+            <h6>
+              Harness Powerful AI and <br />
+              RPA in Your Operations
+            </h6>
+          </div>
+          <div class="col-md-7">
+            <div class="login_tabs">
+              <label for="login" class="show">Login</label>
+            </div>
+            <input
+              type="hidden"
+              name="_token"
+              value="k1DeROQxe5pMzRiTFyIWvtV5uFa0QOTwcuF0bLhJ"
+            />
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="User ID"
+                name="user_id"
+                id="user_id"
+                required
+                autofocus
+              /><span class="fa fa-user"></span>
+            </div>
+
+            <div class="d-flex justify-content-between mt-4 mb-4"></div>
+            <div class="btn-bar">
+              <button type="submit" class="btn btn-primary w-100 m-0">
+                Next
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Mainly scripts -->
+    <script src="https://unifiedworkflow.innodata.com/assets/login/js/jquery-2.1.1.js"></script>
+    <script src="https://unifiedworkflow.innodata.com/assets/login/js/tether.min.js"></script>
+    <script src="https://unifiedworkflow.innodata.com/assets/login/js/bootstrap.min.js"></script>
+    <!-- <script src="js/jquery.mCustomScrollbar.concat.min.js"></script> -->
+    <!-- <script> -->
+    <!-- $(document).ready(function(){ -->
+
+    <!-- });   -->
+    <!-- </script> -->
+  </body>
+</html>
