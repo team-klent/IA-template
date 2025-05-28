@@ -103,3 +103,31 @@ uw-button:hover {
   background-color: #0070c0;
   color: #ffffff !important;
 }
+
+.login-title {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+
+  box-shadow: 0;
+  color: #474747;
+}
+
+.login-button {
+  background-color: #0070c0;
+  color: #ffffff !important;
+  border-radius: 3px;
+  background: #2b76e6;
+  box-shadow: 0px 12.1167px 24.2334px rgba(253, 116, 1, 0.3);
+  border-radius: 8.07781px;
+}
+
+.login-button:hover {
+  background-color: #0070c0 !important;
+  opacity: 0.8 !important;
+}
+
+.login-input {
+  background: #f1f3f6 !important;
+  border-radius: 8.07781px !important;
+}
