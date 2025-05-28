@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'League-Spartan';
+    src: url('./fonts/League-Spartan-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: 'League-Spartan', sans-serif !important;
+}
 .sidebar{
     background-color: #fff !important;
 }
@@ -18,10 +28,9 @@
     font-weight: 400;
 }
 .navigation li a:focus, .navigation li a:hover {
-    background-color: #d9d9d9 !important
+    background-color: #d9d9d9 !important;
     color: #10416A;
 }
-
 .navigation .navigation-header > span {
     font-weight: bold;
 }
